@@ -20,7 +20,7 @@ Base.metadata.create_all(bind=engine)
 origins = [
     "http://localhost",
     "http://localhost:8000",
-    "https://khalifa.mtscorporate.com",
+    "https://log.mtscorporate.com",
     "*"
 ]
 
