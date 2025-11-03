@@ -11,7 +11,7 @@ load_dotenv()
 app = FastAPI(title="Login")
 
 
-Base.metadata.drop_all(bind=engine)
+#Base.metadata.drop_all(bind=engine)
 Base.metadata.create_all(bind=engine)
 
 
